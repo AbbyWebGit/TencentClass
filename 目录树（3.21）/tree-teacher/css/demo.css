@@ -1,0 +1,52 @@
+* {
+            padding: 0px;
+            margin: 0px;
+        }
+        ul {
+            list-style-type: none;
+        }
+
+        a {
+            color: #ffffff;
+            text-decoration: none;
+        }
+
+        body {
+            font-size: 16px;
+            font-family: "微软雅黑";
+            background-color: #FFF;
+        }
+
+        #menu {
+            width: 200px;
+            background: #21242f;
+        }
+
+        .item_title {
+            color: rgba(255,255,255,.3);
+            display: block;
+            padding: 10px 10px;
+            border-bottom: 1px solid rgba(255,255,255,.3);
+           
+        }
+        .item_title b{
+            display:inline-block;
+            width:20px;
+        }
+        .item_title:hover,
+        .selected {
+            background-color: #ff404b;
+            color: #fff;
+        }
+
+        .i_item a {
+            font-size: 12px;
+            padding: 5px 10px;
+            display: block;
+            color: rgba(255,255,255,.3);
+        }
+
+        .i_item a:hover {
+            border-left:5px solid rgba(255,255,255,.3);
+            color:#fff;
+        }

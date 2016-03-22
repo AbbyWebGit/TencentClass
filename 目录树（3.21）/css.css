@@ -1,0 +1,32 @@
+.tree{
+	width: 200px;
+}
+ul{
+	background-color: #555;
+	color: #000;
+	list-style:none;
+	margin:0px;
+	padding:10px;
+}
+.tree li{
+	list-style:none;
+	width: 100px;
+	text-align: center;
+}
+.tree li a{
+	display: inline-block;
+	text-decoration:none;
+	color: #000;
+	width: 100px;
+}
+.tree li a:hover{
+	background-color: red;
+	border-left: 5px solid #f5f5f5;
+	color: #000;
+}
+
+.cur{
+	background-color: red;
+	border-left: 5px solid #f5f5f5;
+	color: #000;
+}
